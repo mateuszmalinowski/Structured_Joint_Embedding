@@ -1,0 +1,10 @@
+CUB
+prepare_data
+*.hdf5
+*.pkl
+*.p
+*.swp
+*.log
+*.pred
+*.pyc
+.backup
