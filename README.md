@@ -15,9 +15,9 @@ In this example first an image is mapped into its representation
 a class name is encoded into its class representation
 (output embedding) using word2vec. Later, we train a compatibility
 function such that 
-'''
+```
 F(input\_embedding(image), output\_embedding(class)) 
-'''
+```
 is large if '''image''' has class '''class'''.
 
 # Structured Joint Embedding (SJE)
