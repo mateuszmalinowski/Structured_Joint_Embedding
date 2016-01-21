@@ -42,8 +42,9 @@ input and output embeddings.
 The compatibility function between x and y is expressed as xWy with
 W being the compatibility matrix. This function is also  similar to 
 Mahalanobis distance but without positive definite or even symmetric 
-requirements for the compatibility matrix.
+constraints `for the compatibility matrix.
 Thus the input and output embeddings can exhibit different dimensions.
+A more detailed information can be found in [1].
 
 # Experiments
 I tested SJE on the CUB dataset with class word2vec output embedding,
