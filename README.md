@@ -26,6 +26,12 @@ that maximizes the compatibility, that is
 class* = \argmax_\{cl \in test_class} F(input_embedding(im), output_embedding(cl))
 ```
 
+This approach follows an intuition: similar classes exhibit similar output embeddings 
+(for instance similar classes have similar attributes, or similar wiki descriptions, 
+or similar word2vec representation). Next, a compatibility between image
+representations (input embeddings) and the corresponding class representations
+(output embeddings) must be learnt. 
+
 # Structured Joint Embedding (SJE)
 The objective function is a binary ranking loss that separates positive
 compatibilities from negative compatibilities 
