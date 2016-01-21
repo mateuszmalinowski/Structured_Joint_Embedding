@@ -23,8 +23,7 @@ is large if the 'image' has 'class'.
 In the test time, a given image 'im' is recognized by assigning a class 'class*'
 that maximizes the compatibility, that is
 ```
-class* = \argmax_\{cl \in test_class} F(input_embedding(im),
-        output_embedding(cl)
+class* = \argmax_\{cl \in test_class} F(input_embedding(im), output_embedding(cl))
 ```
 
 # Structured Joint Embedding (SJE)
